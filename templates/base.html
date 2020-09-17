@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
+    {%block head%}{%endblock%}
+</head>
+
+<body>
+    <section class="navigation">
+        <div class="navContainer">
+            <div class="logo">
+                <h1>Encrypt It</h1>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">What is Encryption?</a></li>
+                        <li><a href="#">Encrypt It</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    {%block body%}
+    {%endblock%}
+</body>
+
+</html>

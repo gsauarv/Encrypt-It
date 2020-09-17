@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+{%block head%}
+<title>Home</title>
+{%endblock%}
+
+{%block body%}
+<section class="landingPage">
+    <div class="container">
+        <div class="landingContent">
+            <h2>Hey,Welcome To Our Project.</h2>
+            <p>Here In <strong style="text-decoration: underline;">Encrypt It</strong> we are providing you the platform
+                to learn about different types of Encryption Techniques that can help us Protect and provide security in
+                our network as well as in daily life activities.
+            </p>
+            <button class="btn">What is Encryption?</button>
+        </div>
+        <div class="landingImg">
+            <img src="{{url_for('static', filename='img/undraw_Security_on_ff2u (1).svg')}}">
+        </div>
+    </div>
+</section>
+{%endblock%}

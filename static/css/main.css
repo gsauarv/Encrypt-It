@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Nav Bar Code */
+.navigation
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navContainer
+{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    flex: 1;
+    color: white;
+    font-family: 'Roboto Mono', monospace;    
+    font-size: 12px;
+    padding-left: 50px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.nav
+{
+    flex: end;   
+    padding-right: 100px; 
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 30px;
+
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;    
+    font-size: 16px;
+}
+
+/* Landing Page Code */
+.landingPage
+{
+    width: 100%;
+    height:90vh;
+}
+
+
+
+.container
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction:row;
+}
+
+.container h2
+{
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin-top:150px;
+    padding-left: 40px;
+    font-weight:550;
+}
+
+.container p
+
+{
+    color:black;
+    font-family: 'Montserrat', sans-serif;    padding-top: 40px;
+    padding-left: 40px;
+    width: 70%;
+    font-weight: lighter;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height:25px;
+}
+
+.landingImg img
+{
+    height: 350px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+.btn
+{
+    width:250px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color:#15776A;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace
+}
+
+.btn:hover
+{
+    background-color:#178d7d;
+
+}
+
+
