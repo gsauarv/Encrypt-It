@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+#landingPage{width: 100%;}
+#whatIs{width: 100%;}
+
+
 
 /* Nav Bar Code */
 .navigation
@@ -10,6 +14,7 @@
     width: 100%;
     height: 50px;
     background-color: black;
+    position:fixed;
 }
 
 .navContainer
@@ -29,10 +34,12 @@
     padding-left: 50px;
     line-height: 50px;
     text-decoration: none;
+    height: 50px;
 }
 
 .nav
 {
+    height: 50px;
     flex: end;   
     padding-right: 100px; 
 }
@@ -84,7 +91,8 @@ nav ul li a
 
 {
     color:black;
-    font-family: 'Montserrat', sans-serif;    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;   
+    padding-top: 40px;
     padding-left: 40px;
     width: 70%;
     font-weight: lighter;
@@ -97,7 +105,12 @@ nav ul li a
 {
     height: 350px;
     padding-right: 100px;
-    padding-top: 60px;
+    padding-top: 120px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .btn
@@ -111,7 +124,7 @@ nav ul li a
     outline: none;
     border: none;
     color: white;
-    font-family: 'Roboto Mono', monospace
+    font-family: 'Roboto Mono', monospace;
 }
 
 .btn:hover
@@ -119,5 +132,196 @@ nav ul li a
     background-color:#178d7d;
 
 }
+
+/* What is Container */
+.whatIs
+{
+    width: 100%;
+    height:140vh;
+    background-color:#004A2F;
+}
+
+.whatIscontainer
+{
+    width: 100%;
+    height:65vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.whatIscontent h3
+{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.whatIscontent p
+{
+    color:white;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 60px;
+    width: 80%;
+    line-height: 25px;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.whatIsImg img
+{
+    height: 350px;
+    margin-top: 50px;
+    margin-right: 50px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.whyIsContainer h2
+{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.whyIs
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.whyIsIcon
+{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 60px;
+
+}
+.whyIsIcon i
+{
+    color: white;
+    font-size: 40px;
+}
+
+.whyIsIcon h4{
+    text-align:left;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.whyIsIcon p
+{
+    color:white;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 14px;
+    padding-top: 40px;
+    /* line-height: 25px; */
+    /* word-spacing: 2px; */
+    text-align:left;
+    padding-right: 20px;
+
+}
+
+.cardSection
+{
+    width: 100%;
+    height: 100%;
+    padding-top:60px;
+    clear: both;
+}
+
+.cardSection h3
+{
+
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.cardContainer
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards{
+    width: 20%;
+    height: 300px;
+    padding: 50px;
+    margin: 40px;
+    padding-left: 20px;
+    margin-left: 55px;
+    background-color:rgba(233, 233, 233, 0.897);
+    border-radius: 10px;
+}
+
+.cards h4
+{
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+.cards p
+{
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.cards h1
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cards input
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button
+{
+    width:262px;
+    height: 40px;
+    background-color:#0E2431;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.button:hover
+{
+    background-color:#143547;
+    cursor: pointer;
+
+}
+
+
 
 

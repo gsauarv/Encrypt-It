@@ -4,7 +4,7 @@
 {%endblock%}
 
 {%block body%}
-<section class="landingPage">
+<section class="landingPage" id="landingPage">
     <div class="container">
         <div class="landingContent">
             <h2>Hey,Welcome To Our Project.</h2>
@@ -18,5 +18,59 @@
             <img src="{{url_for('static', filename='img/undraw_Security_on_ff2u (1).svg')}}">
         </div>
     </div>
+</section>
+
+<section class="whatIs" id="whatIs">
+    <div class="whatIscontainer">
+        <div class="whatIscontent">
+            <h3>What Is Encryption?</h3>
+            <p>It is the process of converting plaintext to ciphertext. In simpler terms, encryption takes readable data
+                and alters it so that it appears random. Encryption requires the use of an encryption key: a set of
+                mathematical values that both the sender and the recipient of an encrypted message know.Encryption is a
+                way of scrambling data so that only authorized parties can understand the information. </p>
+        </div>
+
+        <div class="whatIsImg">
+            <img src="{{url_for('static', filename='img/undraw_secure_data_0rwp.svg')}}">
+        </div>
+    </div>
+
+    <div class="whyIsContainer">
+        <h2>Why is data encryption necessary?</h2>
+    </div>
+    <div class="whyIs">
+        <div class="whyIsIcon">
+            <i class="fas fa-shield-alt"></i>
+            <h4>Privacy</h4>
+            <p> Encryption ensures that no one can read communications or data at rest except the intended recipient or
+                proper data owner.</p>
+        </div>
+
+        <div class="whyIsIcon">
+            <i class="fas fa-fingerprint"></i>
+            <h4>Security</h4>
+            <p>Encryption helps data breaches, whether the data is in transit or at rest.Similarly, encrypted
+                communications enable the communicating parties to exchange sensitive data without leaking the data.
+            </p>
+        </div>
+
+        <div class="whyIsIcon">
+            <i class="fas fa-user-check"></i>
+            <h4>Authentication</h4>
+            <p>Public key encryption, among other things, establishes that a website's origin server owns the private
+                key and therefore was legitimately issued an SSL certificate.</p>
+        </div>
+
+        <div class="whyIsIcon">
+            <i class="fas fa-clipboard-list"></i>
+            <h4>Regulation</h4>
+            <p>For all these reasons, many industry and government regulations require companies that handle user data
+                to keep that data encrypted.</p>
+        </div>
+
+    </div>
+
+
+
 </section>
 {%endblock%}

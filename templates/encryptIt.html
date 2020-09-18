@@ -1,0 +1,51 @@
+{%extends 'base.html'%}
+{%block head%}
+<title>Encrypt It</title>
+{%endblock%}
+
+{%block body%}
+<section class="cardSection">
+    <h3>Conventional Encryption</h3>
+    <div class="cardContainer">
+        <div class="cards">
+            <h4>Ceaser Cipher</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, provident.</p>
+            <p><strong>Enter Your PlainText</strong></p>
+            <form action="/encryptIt" method="POST">
+                <input type="text" name="ceaserPlainText">
+                <br>
+                <button type="submit" class="button" name="ceaserEncrypt" value="ceaserEncrypt">Encrypt</button>
+            </form>
+            <h1>Result:{{result}}</h1>
+        </div>
+
+        <div class=" cards">
+            <h4>One Time Pad</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, provident.</p>
+            <p><strong>Enter Your PlainText</strong></p>
+            <form action="/encryptIt" method="POST">
+                <input type="text" name="oneTimePadText">
+                <br>
+                <button type="submit" class="button" name="oneTimeEncrypt" value="oneTimeEncrypt">Encrypt</button>
+            </form>
+            <h1>Result:{{results}}</h1>
+
+        </div>
+
+        <div class="cards">
+            <h4>MonoAlphabetic Cipher</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, provident.</p>
+            <p><strong>Enter Your PlainText</strong></p>
+            <form action="/encryptIt" method="POST">
+                <input type="text" name="monoText">
+                <br>
+                <button type="submit" class="button" name="monoEncrypt" value="monoEncrypt">Encrypt</button>
+            </form>
+            <h1>Result:{{resu}}</h1>
+        </div>
+
+
+
+    </div>
+</section>
+{%endblock%}
